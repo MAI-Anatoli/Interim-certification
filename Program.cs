@@ -42,6 +42,13 @@ static string[] FilterArray(string[] inputArray)
         return resultArray;
     }
 
-
+ static void PrintArray(string[] array)
+    {
+        Console.WriteLine("Отфильтрованный массив:");
+        foreach (string item in array)
+        {
+            Console.WriteLine(item);
+        }
+    }
 
 }
